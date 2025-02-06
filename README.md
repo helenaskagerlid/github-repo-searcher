@@ -4,13 +4,13 @@ This project is a simple web application where users can search for GitHub users
 
 ## Features
 
-    1. Search GitHub repositories: Users can search for repositories from any GitHub user.
-    2. View repositories in a list: Repositories matching the user's search query are displayed in a list.
-    3. Save and remove repositories: Users can save repositories to a local list and remove them when no longer needed.
-    4. Local storage: The saved list is stored in the browser's localStorage, so it persists even after a page reload.
+- Search GitHub repositories: Users can search for repositories from any GitHub user.
+- View repositories in a list: Repositories matching the user's search query are displayed in a list.
+- Save and remove repositories: Users can save repositories to a local list and remove them when no longer needed.
+- Local storage: The saved list is stored in the browser's localStorage, so it persists even after a page reload.
 
 ## Technologies
 
-    1. Solid.js: Used for building the reactive user interface.
-    2. Bootstrap: For simple styling and layout.
-    3. GitHub API: Used to fetch repositories from GitHub users.
+- Solid.js: Used for building the reactive user interface.
+- Bootstrap: For simple styling and layout.
+- GitHub API: Used to fetch repositories from GitHub users.
