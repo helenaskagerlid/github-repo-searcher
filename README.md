@@ -1,34 +1,16 @@
-## Usage
+# GitHub Repo Finder & Saver
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+This project is a simple web application where users can search for GitHub users' repositories, view them in a list, and save or remove them from a saved list. The app was created as a way for me to learn Solid.js as a beginner and for this project I followed [this tutorial](https://youtu.be/WDodWU-B-aY?si=KW9s8emXPtN0ZDPD) by Ebenezer Don.
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+## Features
 
-```bash
-$ npm install # or pnpm install or yarn install
-```
+    1. Search GitHub repositories: Users can search for repositories from any GitHub user.
+    2. View repositories in a list: Repositories matching the user's search query are displayed in a list.
+    3. Save and remove repositories: Users can save repositories to a local list and remove them when no longer needed.
+    4. Local storage: The saved list is stored in the browser's localStorage, so it persists even after a page reload.
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+## Technologies
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm run dev` or `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+    1. Solid.js: Used for building the reactive user interface.
+    2. Bootstrap: For simple styling and layout.
+    3. GitHub API: Used to fetch repositories from GitHub users.
